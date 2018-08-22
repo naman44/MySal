@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:id="@+id/content_home_emp_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:id="@+id/content_home_emp_salary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:id="@+id/content_home_emp_joining_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:id="@+id/content_home_emp_end_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

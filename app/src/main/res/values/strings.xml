@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">API Salary</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_employees">Employees</string>
+    <string name="title_activity_add_employee_screen">AddEmployeeScreen</string>
+    <string name="title_edit_emp">Edit Employee</string>
+    <string name="attendance_delete">Attendance Deleted</string>
+    <string name="attendance_today_marked">Attendance for today Marked</string>
+    <string name="title_activity_employee_screen">Employee Screen</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

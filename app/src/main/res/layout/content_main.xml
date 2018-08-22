@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_backgound"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/new_attendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mark Attendance"
+        />
+
+    <Button
+        android:id="@+id/mark_attend_auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mark today's Attendance"
+        />
+
+    <Button
+        android:id="@+id/salary_page"
+        android:text="Salary Page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/purge_db_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Purge Database"
+        />
+
+        <TextView
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="20dp"
+            android:id="@+id/salary_marked"
+            android:gravity="center"
+            android:text="Salary for today - To be marked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <ListView
+        android:layout_marginTop="20dp"
+        android:id="@+id/employee_list_home"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>
